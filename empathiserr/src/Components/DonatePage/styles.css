@@ -1,0 +1,449 @@
+/* _1landingpage */
+
+@import url("https://fonts.googleapis.com/css2?family=Open Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas Neue:wght@400&display=swap");
+
+p {
+  margin: 0;
+}
+
+.clip-contents {
+  overflow: hidden;
+}
+
+.flex-col-hstart-vstart {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.flex-row-vend {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.flex-col-hcenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex-row-vcenter-hstart {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.flex-row-vcenter-hcenter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+._-1-landing-page {
+  position: relative;
+  padding: 0px 0px 15px 0px;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 1);
+  width: 1440px;
+  height: 899px;
+}
+
+.group-943 {
+  position: relative;
+  background: url(https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/w3kohh0cbip-178%3A660?alt=media&token=491cee86-36a8-40b9-a6aa-e6c8a89b0cf3);
+  background-size: 100% 100%;
+  height: 884px;
+  width: 100%;
+}
+
+.group-418 {
+  position: absolute;
+  top: 139px;
+  none: 0px;
+  width: 1294px;
+  height: 596px;
+}
+
+.txt-761 {
+  font-size: 30px;
+  font-family: Open Sans, sans-serif;
+  font-weight: 400;
+  line-height: 133%;
+  letter-spacing: 0.2px;
+  color: rgba(255, 255, 255, 1);
+  width: 556px;
+  height: 100px;
+  word-wrap: break-word;
+  margin-right: 170px;
+}
+
+.payment {
+  position: relative;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.custom-donation-form {
+  position: absolute;
+  top: 296px;
+  left: 92px;
+  border-top: 1px solid rgba(0, 0, 0, 1);
+  width: 89px;
+  height: 1px;
+}
+
+.txt-738 {
+  position: absolute;
+  top: -53px;
+  left: 9px;
+  font-size: 30px;
+  font-family: Bebas Neue, display;
+  font-weight: 400;
+  line-height: 133%;
+  letter-spacing: 0.2px;
+  color: rgba(228, 88, 15, 1);
+  width: 59px;
+  height: 40px;
+  word-wrap: break-word;
+}
+
+.txt-241 {
+  position: absolute;
+  top: -56px;
+  left: 158px;
+  font-size: 15px;
+  font-family: Open Sans, sans-serif;
+  font-weight: 400;
+  line-height: 167%;
+  letter-spacing: 0.2px;
+  color: rgba(51, 49, 49, 1);
+  width: 261px;
+  height: 85px;
+  word-wrap: break-word;
+}
+
+.donar-detail-form {
+  position: absolute;
+  top: 349px;
+  left: 296px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 2px solid rgba(225, 221, 221, 1);
+  box-sizing: border-box;
+  width: 40px;
+  height: 40px;
+}
+
+.txt-369 {
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  font-size: 10px;
+  font-family: Open Sans, sans-serif;
+  font-weight: 400;
+  line-height: 400%;
+  letter-spacing: 0.2px;
+  color: rgba(109, 109, 109, 1);
+  width: 40px;
+  height: 40px;
+  word-wrap: break-word;
+}
+
+.line-2 {
+  position: absolute;
+  top: 36px;
+  left: -235px;
+  border: 1px solid rgba(225, 221, 221, 1);
+  width: 446px;
+  height: 1px;
+}
+
+.line-3 {
+  position: absolute;
+  top: 4px;
+  left: -14px;
+  border: 1px solid rgba(225, 221, 221, 1);
+  transform: rotate(-90deg);
+  width: 32px;
+  height: 1px;
+}
+
+.txt-485 {
+  position: absolute;
+  top: 0px;
+  left: -220px;
+  font-size: 10px;
+  font-family: Open Sans, sans-serif;
+  font-weight: 400;
+  line-height: 400%;
+  letter-spacing: 0.2px;
+  color: rgba(109, 109, 109, 1);
+  width: 52px;
+  height: 40px;
+  word-wrap: break-word;
+}
+
+.txt-521 {
+  position: absolute;
+  top: 32px;
+  left: -220px;
+  font-size: 10px;
+  font-family: Open Sans, sans-serif;
+  font-weight: 400;
+  line-height: 400%;
+  letter-spacing: 0.2px;
+  color: rgba(109, 109, 109, 1);
+  width: 27px;
+  height: 40px;
+  word-wrap: break-word;
+}
+
+.group-1044 {
+  position: absolute;
+  top: 9px;
+  none: 0px;
+  width: 487px;
+  height: 525px;
+}
+
+.donate-monthly-button {
+  position: absolute;
+  top: 455px;
+  left: 170px;
+  background-color: rgba(228, 88, 15, 1);
+  height: 18px;
+  width: fit-content;
+}
+
+.txt-015 {
+  font-size: 20px;
+  font-family: Bebas Neue, display;
+  font-weight: 400;
+  line-height: 200%;
+  letter-spacing: 0.2px;
+  color: rgba(255, 255, 255, 1);
+  width: 175px;
+  height: 19px;
+  word-wrap: break-word;
+}
+
+.donar-detail-form-1 {
+  position: absolute;
+  top: 340px;
+  left: 269px;
+  margin-bottom: 75px;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 1);
+  border: 2px solid rgba(225, 221, 221, 1);
+  width: 40px;
+  height: 40px;
+}
+
+.txt-369 {
+  position: absolute;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  font-size: 10px;
+  font-family: Open Sans, sans-serif;
+  font-weight: 400;
+  line-height: 400%;
+  letter-spacing: 0.2px;
+  color: rgba(109, 109, 109, 1);
+  width: 40px;
+  height: 40px;
+  word-wrap: break-word;
+}
+
+.line-2 {
+  position: absolute;
+  top: 36px;
+  left: -235px;
+  border: 1px solid rgba(225, 221, 221, 1);
+  width: 446px;
+  height: 1px;
+}
+
+.line-3 {
+  position: absolute;
+  top: 4px;
+  left: -14px;
+  border: 1px solid rgba(225, 221, 221, 1);
+  transform: rotate(-90deg);
+  width: 32px;
+  height: 1px;
+}
+
+.txt-485 {
+  position: absolute;
+  top: 0px;
+  left: -220px;
+  font-size: 10px;
+  font-family: Open Sans, sans-serif;
+  font-weight: 400;
+  line-height: 400%;
+  letter-spacing: 0.2px;
+  color: rgba(109, 109, 109, 1);
+  width: 52px;
+  height: 40px;
+  word-wrap: break-word;
+}
+
+.txt-521 {
+  position: absolute;
+  top: 32px;
+  left: -220px;
+  font-size: 10px;
+  font-family: Open Sans, sans-serif;
+  font-weight: 400;
+  line-height: 400%;
+  letter-spacing: 0.2px;
+  color: rgba(109, 109, 109, 1);
+  width: 27px;
+  height: 40px;
+  word-wrap: break-word;
+}
+
+.custom-donate-button {
+  position: absolute;
+  top: 168px;
+  left: 389px;
+  background-color: rgba(228, 88, 15, 1);
+  width: 107px;
+  height: 18px;
+}
+
+.txt-764 {
+  font-size: 20px;
+  font-family: Bebas Neue, display;
+  font-weight: 400;
+  line-height: 200%;
+  letter-spacing: 0.2px;
+  color: rgba(255, 255, 255, 1);
+  width: 108px;
+  height: 28px;
+  word-wrap: break-word;
+}
+
+.container {
+  position: absolute;
+  top: 80px;
+  left: calc(50% - 892px / 2 - 208px);
+  padding: 49px 0px;
+  box-sizing: border-box;
+  width: 892px;
+  height: 531px;
+}
+
+.txt-085 {
+  font-size: 50px;
+  font-family: Open Sans, sans-serif;
+  font-weight: 700;
+  line-height: 160%;
+  letter-spacing: 0.2px;
+  color: rgba(255, 255, 255, 1);
+  width: 561px;
+  height: 526px;
+  word-wrap: break-word;
+  backdrop-filter: blur(4px);
+}
+
+.navs {
+  position: absolute;
+  top: -1px;
+  left: 0px;
+  padding: 0px 0px 0px 46px;
+  box-sizing: border-box;
+  background-color: rgba(7, 14, 164, 0.95);
+  height: 96px;
+  width: 100%;
+}
+
+.image-1 {
+  width: 61px;
+  height: 58px;
+}
+
+.logo {
+  margin-right: 675px;
+  box-sizing: border-box;
+  height: fit-content;
+}
+
+.txt-975 {
+  font-size: 28px;
+  font-family: Bebas Neue, display;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  word-wrap: break-word;
+  text-transform: capitalize;
+}
+
+.nav-links {
+  margin-right: 79px;
+  box-sizing: border-box;
+  height: 96px;
+}
+
+.txt-787 {
+  font-size: 24px;
+  font-family: Bebas Neue, display;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  word-wrap: break-word;
+  margin-right: 32px;
+  text-transform: capitalize;
+}
+
+.frame-2 {
+  margin-right: 32px;
+  box-sizing: border-box;
+  height: fit-content;
+}
+
+.txt-9610 {
+  font-size: 24px;
+  font-family: Bebas Neue, display;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  word-wrap: break-word;
+  margin-right: 8px;
+  text-transform: capitalize;
+}
+
+.akar-icons-chevron-down {
+  width: 12px;
+  height: 12px;
+}
+
+.txt-416 {
+  font-size: 24px;
+  font-family: Bebas Neue, display;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  word-wrap: break-word;
+  text-transform: capitalize;
+}
+
+.button {
+  padding: 13px 31px;
+  box-sizing: border-box;
+  background-color: rgba(253, 135, 74, 1);
+  width: 178px;
+  height: 96px;
+}
+
+.txt-416 {
+  font-size: 24px;
+  font-family: Bebas Neue, display;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  word-wrap: break-word;
+  text-transform: capitalize;
+}

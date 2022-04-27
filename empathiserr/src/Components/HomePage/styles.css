@@ -1,0 +1,200 @@
+/* _1introduction */
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas Neue:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open Sans:wght@600&display=swap");
+
+p {
+  margin: 0;
+}
+
+.clip-contents {
+  overflow: hidden;
+}
+
+.flex-col-hstart-vstart {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.flex-row-vcenter-hstart {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.flex-row-vcenter-hcenter {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+._-1-introduction {
+  position: relative;
+  background: url(https://firebasestorage.googleapis.com/v0/b/unify-bc2ad.appspot.com/o/8buxxh4c7t9-107%3A47?alt=media&token=2f0914cc-52eb-49a4-b109-e7719e91a3f9),
+    linear-gradient(0deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1));
+  background-size: 100% 100%;
+  mix-blend-mode: normal;
+  width: 1440px;
+  height: 900px;
+}
+
+.navs {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  padding: 0px 0px 0px 46px;
+  box-sizing: border-box;
+  background-color: rgba(7, 14, 164, 0.95);
+  height: 96px;
+  width: 100%;
+}
+
+.image-1 {
+  width: 61px;
+  height: 58px;
+}
+
+.logo {
+  margin-right: 675px;
+  box-sizing: border-box;
+  height: fit-content;
+}
+
+.txt-1071 {
+  font-size: 28px;
+  font-family: Bebas Neue, display;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  word-wrap: break-word;
+  text-transform: capitalize;
+}
+
+.nav-links {
+  margin-right: 79px;
+  box-sizing: border-box;
+  height: 96px;
+}
+
+.txt-956 {
+  font-size: 24px;
+  font-family: Bebas Neue, display;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  word-wrap: break-word;
+  margin-right: 32px;
+  text-transform: capitalize;
+}
+
+.frame-2 {
+  margin-right: 32px;
+  box-sizing: border-box;
+  height: fit-content;
+}
+
+.txt-734 {
+  font-size: 24px;
+  font-family: Bebas Neue, display;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  word-wrap: break-word;
+  margin-right: 8px;
+  text-transform: capitalize;
+}
+
+.akar-icons-chevron-down {
+  width: 12px;
+  height: 12px;
+}
+
+.txt-295 {
+  font-size: 24px;
+  font-family: Bebas Neue, display;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  word-wrap: break-word;
+  text-transform: capitalize;
+}
+
+.button {
+  padding: 13px 31px;
+  box-sizing: border-box;
+  background-color: rgba(253, 135, 74, 1);
+  width: 178px;
+  height: 96px;
+}
+
+.txt-295 {
+  font-size: 24px;
+  font-family: Bebas Neue, display;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  word-wrap: break-word;
+  text-transform: capitalize;
+}
+
+.group-216 {
+  position: absolute;
+  top: 164px;
+  none: 0px;
+  width: 1050px;
+  height: 593px;
+}
+
+.container {
+  padding: 49px 0px;
+  margin-bottom: 166px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.row {
+  width: fit-content;
+  height: 100%;
+}
+
+.col-md-8 {
+  backdrop-filter: blur(4px);
+  width: 100%;
+  height: 100%;
+}
+
+.txt-573 {
+  font-size: 58px;
+  font-family: Open Sans, sans-serif;
+  font-weight: 600;
+  line-height: 138%;
+  letter-spacing: 0.2px;
+  color: rgba(255, 255, 255, 1);
+  width: 510px;
+  word-wrap: break-word;
+  backdrop-filter: blur(4px);
+}
+
+.rectangle-1 {
+  width: 207px;
+  height: 87px;
+}
+
+.txt-056 {
+  position: absolute;
+  top: 673px;
+  left: 120px;
+  font-size: 28px;
+  font-family: Bebas Neue, display;
+  font-weight: 400;
+  line-height: 286%;
+  letter-spacing: 0.2px;
+  color: rgba(255, 255, 255, 1);
+  width: 159px;
+  height: 69px;
+  word-wrap: break-word;
+}
