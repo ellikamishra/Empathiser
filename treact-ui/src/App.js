@@ -92,7 +92,7 @@ import SaaSProductLandingPage from "demos/SaaSProductLandingPage.js";
 // import HostingCloudLandingPage from "demos/HostingCloudLandingPage.js";
 
 /* Inner Pages */
-// import LoginPage from "pages/Login.js";
+import LoginPage from "pages/Login.js";
 // import SignupPage from "pages/Signup.js";
 // import PricingPage from "pages/Pricing.js";
 // import AboutUsPage from "pages/AboutUs.js";
@@ -123,6 +123,9 @@ export default function App() {
         </Route>
         <Route path="/Contact">
           <ContactUsPage />
+        </Route>
+        <Route path="/Login">
+          < LoginPage/>
         </Route>
         <Route path="/">
           <SaaSProductLandingPage />

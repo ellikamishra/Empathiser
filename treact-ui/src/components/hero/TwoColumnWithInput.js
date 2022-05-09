@@ -9,7 +9,7 @@ import Header from "../headers/light.js";
 import { ReactComponent as SvgDecoratorBlob1 } from "../../images/svg-decorator-blob-1.svg";
 import DesignIllustration from "../../images/design-illustration-2.svg";
 import CustomersLogoStripImage from "../../images/customers-logo-strip.png";
-
+import { PrimaryButton } from "components/misc/Buttons.js";
 const Container = tw.div`relative`;
 const TwoColumn = tw.div`flex flex-col lg:flex-row lg:items-center max-w-screen-xl mx-auto py-20 md:py-24`;
 const LeftColumn = tw.div`relative lg:w-5/12 text-center max-w-lg mx-auto lg:max-w-none lg:text-left`;
@@ -56,16 +56,15 @@ export default ({ roundedHeaderButton }) => {
               Empathiser <span tw="text-primary-500">for you.</span>
             </Heading>
             <Paragraph>
-            An initiative to foster transparency in Philanthropy using technology 
+            An initiative to foster transparency in Philanthropy using technology. Join us and become a part of philanthropy of next generation.
             </Paragraph>
-            <Actions>
-              <input type="text" placeholder="Your E-mail Address" />
-              <button>Get Started</button>
-            </Actions>
-            <CustomersLogoStrip>
-              <p>Our TRUSTED Customers</p>
-              <img src={CustomersLogoStripImage} alt="Our Customers" />
-            </CustomersLogoStrip>
+            {/* <Actions>
+            <PrimaryButton  >
+            Get Started
+            </PrimaryButton>
+              
+            </Actions> */}
+
           </LeftColumn>
           <RightColumn>
             <IllustrationContainer>

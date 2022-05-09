@@ -75,7 +75,7 @@ export default () => {
           }
         ]}
       />
-      <Pricing
+      {/* <Pricing
         subheading={<Subheading>Pricing</Subheading>}
         heading={
           <>
@@ -106,7 +106,7 @@ export default () => {
             features: ["90 Templates", "27 Landing Pages", "37 Internal Pages", "Personal Assistance"]
           }
         ]}
-      />
+      /> */}
       <Testimonial
         subheading={<Subheading>Testimonials</Subheading>}
         heading={
