@@ -25,19 +25,29 @@ export default () => {
   return (
     <AnimationRevealPage>
       <Hero roundedHeaderButton={true} />
-      <Features
-        subheading={<Subheading>Features</Subheading>}
+      <MainFeature2
+        subheading={<Subheading>VALUES</Subheading>}
         heading={
           <>
-            We have Amazing <HighlightedText>Service.</HighlightedText>
+            We Always Abide by Our <HighlightedText>Principles.</HighlightedText>
           </>
         }
-      />
-      <MainFeature
-        subheading={<Subheading>Quality Work</Subheading>}
-        imageSrc={heroScreenshotImageSrc}
-        imageBorder={true}
-        imageDecoratorBlob={true}
+        imageSrc={prototypeIllustrationImageSrc}
+        showDecoratorBlob={false}
+        features={[
+          {
+            Icon: MoneyIcon,
+            title: "Transparency",
+            description: "We promise to offer you the best rate we can - at par with the industry standard.",
+            iconContainerCss: tw`bg-green-300 text-green-800`
+          },
+          {
+            Icon: BriefcaseIcon,
+            title: "Ease of Use",
+            description: "We assure you that our templates are designed and created by professional designers.",
+            iconContainerCss: tw`bg-red-300 text-red-800`
+          }
+        ]}
       />
       <FeatureWithSteps
         subheading={<Subheading>STEPS</Subheading>}
@@ -51,67 +61,13 @@ export default () => {
         imageDecoratorBlob={true}
         decoratorBlobCss={tw`xl:w-40 xl:h-40 opacity-15 -translate-x-1/2 left-1/2`}
       />
-      <MainFeature2
-        subheading={<Subheading>VALUES</Subheading>}
-        heading={
-          <>
-            We Always Abide by Our <HighlightedText>Principles.</HighlightedText>
-          </>
-        }
-        imageSrc={prototypeIllustrationImageSrc}
-        showDecoratorBlob={false}
-        features={[
-          {
-            Icon: MoneyIcon,
-            title: "Affordable",
-            description: "We promise to offer you the best rate we can - at par with the industry standard.",
-            iconContainerCss: tw`bg-green-300 text-green-800`
-          },
-          {
-            Icon: BriefcaseIcon,
-            title: "Professionalism",
-            description: "We assure you that our templates are designed and created by professional designers.",
-            iconContainerCss: tw`bg-red-300 text-red-800`
-          }
-        ]}
-      />
-      {/* <Pricing
-        subheading={<Subheading>Pricing</Subheading>}
-        heading={
-          <>
-            Reasonable & Flexible <HighlightedText>Plans.</HighlightedText>
-          </>
-        }
-        plans={[
-          {
-            name: "Personal",
-            price: "$17.99",
-            duration: "Monthly",
-            mainFeature: "For Individuals",
-            features: ["30 Templates", "7 Landing Pages", "12 Internal Pages", "Basic Assistance"]
-          },
-          {
-            name: "Business",
-            price: "$37.99",
-            duration: "Monthly",
-            mainFeature: "For Small Businesses",
-            features: ["60 Templates", "15 Landing Pages", "22 Internal Pages", "Priority Assistance"],
-            featured: true
-          },
-          {
-            name: "Enterprise",
-            price: "$57.99",
-            duration: "Monthly",
-            mainFeature: "For Large Companies",
-            features: ["90 Templates", "27 Landing Pages", "37 Internal Pages", "Personal Assistance"]
-          }
-        ]}
-      /> */}
+     
+      
       <Testimonial
         subheading={<Subheading>Testimonials</Subheading>}
         heading={
           <>
-            Our Clients <HighlightedText>Love Us.</HighlightedText>
+            Hear from donors, <HighlightedText>they love us!</HighlightedText>
           </>
         }
         testimonials={[
@@ -177,7 +133,7 @@ export default () => {
           }
         ]}
       />
-      <GetStarted/>
+      
       <Footer />
     </AnimationRevealPage>
   );

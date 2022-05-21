@@ -63,11 +63,11 @@ export default ({
       description: "Create an account with us using Google or Facebook."
     },
     {
-      heading: "Download",
+      heading: "Select & Donate/Volunteer",
       description: "Browse and Download the template that you like from the marketplace."
     },
     {
-      heading: "Run",
+      heading: "Keep track of your funds, resources and contributions",
       description: "Follow the instructions to setup and customize the template to your needs."
     }
   ];
