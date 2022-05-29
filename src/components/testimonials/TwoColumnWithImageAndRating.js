@@ -74,15 +74,15 @@ export default ({
   imageBorder = false,
   imageShadow = false,
   subheading = "Testimonials",
-  heading = "Our Clients Love Us.",
-  description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam.",
+  heading = "Donors Love Us.",
+  description = "A quick glance at our donors and NGOs experinece with us",
   textOnLeft = false,
   testimonials = [
     {
       stars: 5,
       profileImageSrc:
-        "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3.25&w=512&h=512&q=80",
-      heading: "Amazing User Experience",
+        "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=512&h=512&q=80",
+      heading: "Amazing User Feedback",
       quote:
         "Truly inspired by the idea of intuitively accessing the break up og my contributions at the fingertips",
       customerName: "Rohit Sharma",
@@ -92,7 +92,7 @@ export default ({
       stars: 5,
       profileImageSrc:
         "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=512&h=512&q=80",
-      heading: "Love the Developer Experience and Design Principles !",
+      heading: "Love the Idea !",
       quote:
         "We love the idea! Happy to provide you break-up of every penny you donate, it helps us in the cause that we are working for",
       customerName: "Anonymous",
