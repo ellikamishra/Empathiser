@@ -63,7 +63,7 @@ export default () => {
       />
      
       
-      <Testimonial
+      {/* <Testimonial
         subheading={<Subheading>Testimonials</Subheading>}
         heading={
           <>
@@ -92,7 +92,7 @@ export default () => {
             customerTitle: "NGO, Pune"
           }
         ]}
-      />
+      /> */}
       <FAQ
         subheading={<Subheading>FAQS</Subheading>}
         heading={
@@ -102,35 +102,32 @@ export default () => {
         }
         faqs={[
           {
-            question: "Are all the templates easily customizable ?",
+            question: "How does Empathiser ensure transparency for donations?",
             answer:
-              "Yes, they all are. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+              "Empathiser uses blockchains to achieve complete transparency in donations and give realtime updates to users of theri funds. They can also track donations."
           },
           {
-            question: "How long do you usually support an standalone template for ?",
+            question: "What all can I donate? Is it restricted to just monetary donations?",
             answer:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+              "A donation made can be of any kind- in the form of goods like clothes, books, food supplies or direct fund donations."
           },
           {
-            question: "What kind of payment methods do you accept ?",
+            question: "What type of causes can I contibute to ?",
             answer:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+              "The listed causes at the moment are- Girl child education and Food distribution/ Hunger struck areas."
           },
           {
-            question: "Is there a subscribption service to get the latest templates ?",
+            question: "How do geospeicific donations work",
             answer:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+              "Team Empathiser find you needy/causes around you and gives you latest updates on the progress made if you wish to be part by donating/volunteering."
           },
           {
-            question: "Are the templates compatible with the React ?",
+            question: "Are there any operational charges?",
             answer:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+              "Yes a minimal 5 percent of the donations go in maintaining the platform"
           },
-          {
-            question: "Do you really support Internet Explorer 11 ?",
-            answer:
-              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-          }
+          
+          
         ]}
       />
       
