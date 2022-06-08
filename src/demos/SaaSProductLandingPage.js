@@ -38,13 +38,13 @@ export default () => {
           {
             Icon: MoneyIcon,
             title: "Transparency",
-            description: "We promise to offer you the best rate we can - at par with the industry standard.",
+            description: "TRack your donations and get ground level split of funds utilised.",
             iconContainerCss: tw`bg-green-300 text-green-800`
           },
           {
             Icon: BriefcaseIcon,
             title: "Ease of Use",
-            description: "We assure you that our templates are designed and created by professional designers.",
+            description: "Easy to find causes, apply location/ scale/ type filters and get done with philanthropy in minutes! ",
             iconContainerCss: tw`bg-red-300 text-red-800`
           }
         ]}
