@@ -38,13 +38,13 @@ export default () => {
           {
             Icon: MoneyIcon,
             title: "Transparency",
-            description: "TRack your donations and get ground level split of funds utilised.",
+            description: "Track your donations and get ground level split of funds utilised.",
             iconContainerCss: tw`bg-green-300 text-green-800`
           },
           {
             Icon: BriefcaseIcon,
             title: "Ease of Use",
-            description: "Easy to find causes, apply location/ scale/ type filters and get done with philanthropy in minutes! ",
+            description: "Easy to find causes, apply location/ scale/ type filters and get started with philanthropy in minutes! ",
             iconContainerCss: tw`bg-red-300 text-red-800`
           }
         ]}
