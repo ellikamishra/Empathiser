@@ -60,15 +60,15 @@ export default ({
   const defaultSteps = [
     {
       heading: "Register",
-      description: "Create an account with us using Google or Facebook."
+      description: "Create an account with us."
     },
     {
       heading: "Select & Donate/Volunteer",
-      description: "Browse and Download the template that you like from the marketplace."
+      description: "Browse and select causes to donate and be a part of."
     },
     {
       heading: "Keep track of your funds, resources and contributions",
-      description: "Follow the instructions to setup and customize the template to your needs."
+      description: "Get regular updates of your resources real-time."
     }
   ];
 
