@@ -56,7 +56,7 @@ export default ({ roundedHeaderButton }) => {
               Empathiser <span tw="text-primary-500">for you.</span>
             </Heading>
             <Paragraph>
-            An initiative to foster transparency in Philanthropy using technology. Join us and become a part of philanthropy of next generation.
+            An initiative to foster transparency in Philanthropy. A blockchain based platorm to ensure end-to-end transparency in your donations. Join us and become a part of philanthropy of next generation.
             </Paragraph>
             {/* <Actions>
             <PrimaryButton  >

@@ -104,7 +104,7 @@ export default () => {
           {
             question: "How does Empathiser ensure transparency for donations?",
             answer:
-              "Empathiser uses blockchains to achieve complete transparency in donations and give realtime updates to users of theri funds. They can also track donations."
+              "Empathiser uses blockchains to achieve complete transparency in donations and give realtime updates to users. They can also track donations and see the complete breakup of funds donated."
           },
           {
             question: "What all can I donate? Is it restricted to just monetary donations?",
@@ -114,12 +114,12 @@ export default () => {
           {
             question: "What type of causes can I contibute to ?",
             answer:
-              "The listed causes at the moment are- Girl child education and Food distribution/ Hunger struck areas."
+              "All types of causes will be listed here. Currently we take care of education and hunger eradication."
           },
           {
             question: "How do geospeicific donations work",
             answer:
-              "Team Empathiser find you needy/causes around you and gives you latest updates on the progress made if you wish to be part by donating/volunteering."
+              "Team Empathiser find yous needy/causes around you and gives you latest updates on the progress made if you wish to be part by donating/volunteering."
           },
           {
             question: "Are there any operational charges?",
